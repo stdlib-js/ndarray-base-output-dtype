@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-07-28)
+## Unreleased (2025-09-13)
 
 <section class="features">
 
@@ -16,12 +16,23 @@
 
 <!-- /.features -->
 
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`d5e1c28`](https://github.com/stdlib-js/stdlib/commit/d5e1c28e6821d21da0b79090ebd3cf903f036aae) - maintain floating-point precision
+
+</section>
+
+<!-- /.bug-fixes -->
+
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`d5e1c28`](https://github.com/stdlib-js/stdlib/commit/d5e1c28e6821d21da0b79090ebd3cf903f036aae) - **fix:** maintain floating-point precision _(by Athan Reines)_
 -   [`5e7af03`](https://github.com/stdlib-js/stdlib/commit/5e7af03b8d27240b12f4fbf7bbad86ff57b64917) - **feat:** add `ndarray/base/output-dtype` _(by Athan Reines)_
 
 </details>

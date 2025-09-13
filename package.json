@@ -38,6 +38,7 @@
   },
   "dependencies": {
     "@stdlib/array-base-join": "^0.1.1",
+    "@stdlib/assert-is-string": "^0.2.2",
     "@stdlib/ndarray-base-assert-is-boolean-data-type": "^0.1.0",
     "@stdlib/ndarray-base-assert-is-boolean-index-data-type": "github:stdlib-js/ndarray-base-assert-is-boolean-index-data-type#main",
     "@stdlib/ndarray-base-assert-is-complex-floating-point-data-type": "^0.2.2",
