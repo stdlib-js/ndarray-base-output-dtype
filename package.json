@@ -37,7 +37,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/array-base-join": "^0.1.1",
+    "@stdlib/array-base-join": "^0.1.2",
     "@stdlib/assert-is-string": "^0.2.3",
     "@stdlib/ndarray-base-assert-is-boolean-data-type": "^0.2.1",
     "@stdlib/ndarray-base-assert-is-boolean-index-data-type": "^0.1.1",
