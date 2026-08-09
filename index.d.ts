@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2025 The Stdlib Authors.
@@ -16,25 +16,27 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
+
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
+
+import { ArrayLike } from '@stdlib/types/array';
+import { DataType, OutputPolicy } from '@stdlib/types/ndarray';
 
 /**
-* Resolve the output data type from a list of input ndarray data types.
+* Resolves the output data type from a list of input ndarray data types.
 *
-* @module @stdlib/ndarray-base-output-dtype
+* @param dtypes - input ndarray data types
+* @param policy - output ndarray data type policy
+* @returns output ndarray data type
 *
 * @example
-* var resolve = require( '@stdlib/ndarray-base-output-dtype' );
-*
-* var dt = resolve( [ 'float64' ], 'complex_floating_point' );
+* var dt = outputDataType( [ 'float64' ], 'complex_floating_point' );
 * // returns <string>
 */
-
-// MODULES //
-
-var main = require( './main.js' );
+declare function outputDataType( dtypes: ArrayLike<DataType>, policy: OutputPolicy | DataType ): DataType;
 
 
 // EXPORTS //
 
-module.exports = main;
+export = outputDataType;
